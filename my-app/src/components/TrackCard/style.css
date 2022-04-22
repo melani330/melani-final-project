@@ -1,0 +1,68 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 340px;
+  background: radial-gradient( #d89766, #f7d8f8);
+  border-radius: 8px;
+  padding: 20px;
+  align-items:flex-start;
+  /* margin-left: 15px; */
+}
+.album-image {
+  width: 150px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.description-container {
+  color: #712929e2;
+  align-items: flex-start;
+
+}
+.track-name {
+  font-weight: bold;
+  /* margin-top: 16px; */
+}
+.artist-name {
+  margin-top: 2px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.album-name {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.select-track-button {
+  width: 110px;
+  /* background-color: rgb(193, 150, 197); */
+  background-color: rgb(214, 152, 205);
+  border: none;
+  border-radius: 6px;
+  color: #f4f4f4;
+  border-bottom: 3px solid rgb(201, 112, 201);
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 16px;
+  padding: 8px 0;
+
+}
+.select-track-button:hover {
+  background-color: rgb(238, 189, 125);
+  border-bottom: none;
+}
+.select-track-button:focus{
+  background-color: rgb(238, 189, 125);
+  border: solid 1px rgb(208, 143, 58);
+}
+table{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  table {
+    justify-content: center;
+  }
+}

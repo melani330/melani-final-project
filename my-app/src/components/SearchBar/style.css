@@ -1,0 +1,28 @@
+
+.search-button {
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    padding: 9px;
+    height: 48px;
+    width: 80px;
+    color: #f4f4f4;
+}
+.textfield{
+  width: 50%;
+}
+.text-field input{
+  color: #eae8e8e7;
+}
+@media screen and (max-width: 768px) {
+    .search-input {
+      width: 60%;
+      font-size: 14px;
+      color: beige;
+    }
+    .search-button {
+      font-size: 14px;
+    }
+  }
